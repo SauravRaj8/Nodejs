@@ -1,0 +1,26 @@
+{
+  "name": "Horoscope",
+  "version": "1.0.0",
+  "description": "Horoscope application to get horoscope data",
+  "main": "app.js",
+  "author": "Saurav Raj",
+
+  "scripts": {
+    "start": "node app.js"
+  },
+
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.30.1",
+    "mongoose": "^8.18.0",
+    "swagger-ui-express": "^5.0.1"
+  },
+
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
