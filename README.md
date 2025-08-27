@@ -24,8 +24,8 @@ Used Google to mock horoscope text data and zodiac sign from and to date.
 - MongoDB(local or cloud)
 
 ### Clone the repo
-git clone https://github.com/your-username/horoscope-api.git
-cd Nodejs
+- git clone https://github.com/your-username/horoscope-api.git
+- cd Nodejs
 
 ### Install dependencies
 - npm install
