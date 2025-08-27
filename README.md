@@ -7,8 +7,8 @@ Used Google to mock horoscope text data and zodiac sign from and to date.
 - Auto find zodia sign based on user's birthdate
 - Daily horoscope api
 - Horoscope history api(last 7 days)
-- rate limiting(max 5 per minute)
-- swagger documentation
+- Rate limiting(max 5 per minute)
+- Swagger documentation
 
 ## Tech Stack
 - Node.js, Express.js
@@ -50,9 +50,9 @@ Used Google to mock horoscope text data and zodiac sign from and to date.
 
 ## Scalability
 Personalized model will require dynamic generation pipeline, caching strategy to serve repeated requests, persistent storage to save generated data, schedulers to trigger daily horoscope generation, asyn task queues(like kafka) to process horoscope jobs
-It will also require some stack changes. for eg:
+It will also require some stack changes. For eg:
 - Redis for caching
 - Worker service to process generation
 - Integrate with external apis or custom llm model to generate text
 - Kafka to trigger communication
-- ttl indexes to remove outdated data in mongo
+- TTL indexes to remove outdated data in mongo
